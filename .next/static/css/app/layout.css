@@ -1526,6 +1526,10 @@ input[type='number']::-webkit-outer-spin-button {
     margin-right: 1rem;
   }
 
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1568,6 +1572,10 @@ input[type='number']::-webkit-outer-spin-button {
 
   .md\:flex-none {
     flex: none;
+  }
+
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .md\:grid-cols-4 {
